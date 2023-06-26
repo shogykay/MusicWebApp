@@ -1,0 +1,123 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.first-container{
+    height: 150vh;
+    background: #182747;
+    padding-top: 3rem;
+}
+
+.first-container .introduction{
+    height: 80%;
+    text-align: center;
+    margin-top: 4rem;
+    color: #ffffff;
+}
+.first-container .picture{
+    height: 80%;
+    text-align: center;
+}
+
+.first-container .picture img{
+    width: 50%;
+}
+
+.page-links{
+    margin-bottom: 14rem;
+    display: flex;
+}
+.page-links .insta{
+    position: absolute;
+    right: 5%;
+}
+.page-links .insta a{
+    text-decoration: none;
+    color: white;
+}
+.page-links ul{
+    display: flex;
+}
+
+.page-links ul li{
+    list-style: none;
+    margin-right: 5rem;
+}
+
+
+#listen ul{
+    border: 2px solid;
+    background-color: white;
+}
+
+.on{
+    display: block;
+}
+.off{
+    display: none;
+}
+
+#listen a:active #listen ul{
+    display: block;
+}
+
+
+
+.page-links ul li ul li{
+}
+
+.page-links ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.view-songs{
+    border: 2px solid;
+    width: 40%;
+    border-radius: 30px;
+    margin-top: 1rem;
+    background-color: azure;
+    text-align: center;
+}
+
+
+
+.second-container{
+    height: 150vh;
+    background: #F2E5E5;
+    text-align: center;
+    padding-top: 4rem;
+
+}
+
+.track-container{
+    position: relative;
+    padding-left: 10rem;
+    padding-bottom: 2rem;
+}
+
+.track-container img{
+    width: 55%;
+}
+.track-container .track-1{
+    position: relative;
+    padding-left: 20%;
+}
+
+.track-container .track-2{
+    position: relative;
+    padding-right: 20%;
+}
+
+.title{
+    line-height: 0;
+    width: 50%;
+    position: relative;
+    margin-left: 21%;
+}
+
+.history{
+    margin-top: 8rem;
+    color: #112B3C;
+}
